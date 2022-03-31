@@ -1,0 +1,330 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-family: arial, sans-serif;
+
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 75%
+}
+
+header,nav,section,footer {
+background: white;
+
+}
+
+.home header {
+  background-color: #9254C8;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  font-family: Impact;
+}
+
+.fall header {
+  background-color: #AE431E;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  font-family: Impact;
+}
+
+.spring header {
+  background-color: #B5FE83;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  font-family: Impact;
+}
+
+.winter header {
+  background-color: #22577E;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  font-family: Impact;
+}
+
+.summer header {
+  background-color: #A2D2FF;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  font-family: Impact;
+}
+
+.home nav {
+  background-color: #E15FED;
+  padding: 20px;
+  text-align: center;
+}
+
+.fall nav {
+  background-color: #F0A500;
+  padding: 20px;
+  text-align: center;
+}
+
+.winter nav {
+  background-color: #2D31FA;
+  padding: 20px;
+  text-align: center;
+}
+
+.spring nav {
+  background-color: #F6FFA4;
+  padding: 20px;
+  text-align: center;
+}
+
+.summer nav {
+  background-color: #FEE440;
+  padding: 20px;
+  text-align: center;
+}
+
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  text transform: uppercase;
+}
+
+nav a: hover {
+  background-color: maroon;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.home section {
+  background-color: #F7E2E2;
+  overflow: auto;
+}
+
+.fall section {
+  background-color: #E6D5B8;
+  overflow: auto;
+}
+
+.spring section {
+  background-color: #FDD7AA;
+  overflow: auto;
+}
+
+.winter section {
+  background-color: #DFF6FF;
+  overflow: auto;
+}
+
+.summer section {
+  background-color: #FEF9EF;
+  overflow: auto;
+}
+
+.home aside {
+  background-color: #F7E2E2;
+  width:25%;
+  float:left;
+  padding: 2% 0 0 0;
+}
+
+aside {
+  fon
+}
+
+.fall aside {
+  background-color: #E6D5B8;
+  width:25%;
+  float:left;
+  padding: 2% 0 0 0;
+}
+
+.spring aside {
+  background-color: #FDD7AA;
+  width:25%;
+  float:left;
+  padding: 2% 0 0 0;
+}
+
+.winter aside {
+  background-color: #DFF6FF;
+  width:25%;
+  float:left;
+  padding: 2% 0 0 0;
+}
+
+.summer aside {
+  background-color: #FEF9EF;
+  width:25%;
+  float:left;
+  padding: 2% 0 0 0;
+}
+
+
+aside a {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  display:inline-block;
+  padding: 10px 10px 10px 30px;
+}
+
+aside a:hover {
+  background-color: #EEEEEE;
+
+}
+
+aside li {
+  list-style-type: none;
+}
+
+aside ul {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+aside h1{
+  padding: 10px;
+  text-align: center;
+  color: black;
+  
+}
+
+.home article {
+  background-color: #6EDCD9;
+  width:67%;
+  float:right;
+  padding:2% 4%;
+  font-family: comic serif;
+}
+
+.fall article {
+  background-color: #E45826;
+  width:67%;
+  float:right;
+  padding:2% 4%;
+}
+
+.spring article {
+  background-color: #FFA8A8;
+  width:67%;
+  float:right;
+  padding:2% 4%;
+}
+
+.winter article {
+  background-color: #5D8BF4;
+  width:67%;
+  float:right;
+  padding:2% 4%;
+}
+
+.summer article {
+  background-color: #FD5D5D;
+  width:67%;
+  float:right;
+  padding:2% 4%;
+}
+
+.home {
+  background-image: url("seasons2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+.fall{
+  background-image: url("fall2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+.spring {
+  background-image: url("easter2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+.winter {
+  background-image: url("skiing2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+.summer {
+  background-image: url("beach2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+footer {
+  color: black;
+  background-color: #FBF8F1;
+  text-align: center;
+  padding: 2%;
+}
+
+.yesbird {
+  width: 35%;
+  float:right;
+  margin: 0 0 30px 40px;
+  border: solid 4px black;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  #wrap{
+    width: 100%;
+  }
+  aside {
+    text-align: center;
+  }
+  aside a {
+    padding: 10px;
+  }
+  nav li {
+    display: block;
+  }
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  nav a:hover {
+    background-color: none;
+  }
+  aside, article {
+    float: none;
+    width: 91%;
+  }
+  .yesbird{
+    float: none;
+    width: 92%;
+    margin: 10px;
+    display: none;
+  }
+}
