@@ -1,0 +1,135 @@
+html, body{
+  margin: 0;
+  pading: 0;
+  background: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+#wrap {
+margin: 0 auto;
+width: 75%;
+}
+
+header, nav, section, footer{
+  background: white;
+  margin: 10px;
+}
+header{
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+nav{
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+}
+
+nav li{
+  display: inline;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav a:hover{
+  background-color: #560d56;
+  margin: 0;
+}
+
+section{
+  background-color: #e2cb53;
+  overflow: auto;
+}
+
+aside{
+  background-color: lightblue;
+  width: 25%;
+  float: left;
+  padding: 2% 0 0 0;
+}
+
+aside a{
+color: white;
+text-decoration: none;
+width: 100%;
+display: inline-block;
+padding: 10px 10px 10px 30px;
+}
+
+aside a:hover{
+  background-color: #560d56;
+}
+
+aside li{
+  list-style-type: none;
+}
+aside ul{
+  padding: 0px;
+  margin: 0px;
+}
+article{
+  background-color: #e2cb53;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+}
+
+footer{
+  background-color: lightblue;
+  text-align: center;
+  padding: 2%;
+}
+
+.BuyCupcakes{
+  width: 35%;
+  float: right;
+  margin: 0 0 10px 40px;
+}
+
+.BuyCupcakes{
+  width: 45%;
+  float: right;
+  margin: 0 0 10px 40px;
+}
+
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  #wrap{
+    width: 100%;
+  }
+  aside{
+    text-align: center;
+  }
+  aside a{
+    padding: 10px;
+  }
+  nav li{
+    display: block;
+  }
+  nav a{
+    display: block;
+    padding: 10px;
+  }
+  nav a:hover{
+    background-color: transparent;
+  }
+  aside, article{
+    float: none;
+    width: 92%;
+  }
+}
