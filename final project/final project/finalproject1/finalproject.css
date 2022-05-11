@@ -1,0 +1,372 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-family: arial, sans-serif;
+
+}
+
+.tacotown{
+  float: right;
+  padding: 30px
+}
+
+.slider-wrapper{
+  height: 400px;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 75%
+}
+
+header,nav,section,footer {
+background: white;}
+
+.home{
+  background-image: url("sunrise.img") ;
+  background-color: #cccccc;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.food{
+  background-image: url("beach.img") ;
+  background-color: #cccccc;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.activities{
+  background-image: url("disco.img") ;
+  background-color: #cccccc;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.entertainment{
+  background-image: url("starwars.img") ;
+  background-color: #cccccc;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.contact{
+  background-image: url("papers.img") ;
+  background-color: #cccccc;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.home header {
+  background-color: #be1013;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  font-family: 'Fredoka One'
+}
+
+.food header {
+  background-color: #ffd439;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  font-family: 'Fredoka One';
+}
+
+.contact header {
+  background-color: #164c8d;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  font-family: 'Fredoka One';
+}
+
+.activities header {
+  background-color: #d4ff47;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  font-family: 'Fredoka One';
+}
+
+.entertainment header {
+  background-color: #953df5;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  font-family: 'Fredoka One';
+}
+
+.home nav {
+  background-color: #f6960e;
+  padding: 20px;
+  text-align: center;
+}
+
+.food nav {
+  background-color: #1cb0d4;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact nav {
+  background-color: #ad0001;
+  padding: 20px;
+  text-align: center;
+}
+
+.activities nav {
+  background-color: #0fc0fc;
+  padding: 20px;
+  text-align: center;
+}
+
+.entertainment nav {
+  background-color: #4e26e2;
+  padding: 20px;
+  text-align: center;
+}
+
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  text transform: uppercase;
+}
+
+nav a: hover {
+  background-color: maroon;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.home section {
+  background-color: #d23008;
+  overflow: auto;
+}
+
+.food section {
+  background-color: #f72215;
+  overflow: auto;
+}
+
+.activities section {
+  background-color: #7b1daf;
+  overflow: auto;
+}
+
+.contact section {
+  background-color: #135e32;
+  overflow: auto;
+}
+
+.entertainment section {
+  background-color: #2a1ad8;
+  overflow: auto;
+}
+
+.home aside {
+  background-color: #d23008;
+  width:30%;
+  float:left;
+  padding: 2% 0 0 0;
+}
+
+aside {
+  fon
+}
+
+.food aside {
+  background-color: #f72215;
+  width:25%;
+  float:left;
+  padding: 2% 0 0 0;
+}
+
+.activities aside {
+  background-color: #7b1daf;
+  width:25%;
+  float:left;
+  padding: 2% 0 0 0;
+}
+
+.contact aside {
+  background-color: #135e32;
+  width:25%;
+  float:left;
+  padding: 2% 0 0 0;
+}
+
+.entertainment aside {
+  background-color: #2a1ad8;
+  width:25%;
+  float:left;
+  padding: 2% 0 0 0;
+}
+
+
+aside a {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  display:inline-block;
+  padding: 10px 10px 10px 30px;
+}
+
+aside a:hover {
+  background-color: #EEEEEE;
+
+}
+
+aside li {
+  list-style-type: none;
+}
+
+aside ul {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+aside h1{
+  padding: 10px;
+  text-align: center;
+  color: black;
+
+}
+
+.home article {
+  background-color: #ffcd06;
+  width:62%;
+  float:right;
+  padding:2% 4%;
+  font-family: comic serif;
+}
+
+.food article {
+  background-color: #a0c409;
+  width:67%;
+  float:right;
+  padding:2% 4%;
+}
+
+.activities article {
+  background-color: #ff2fb9;
+  width:67%;
+  float:right;
+  padding:2% 4%;
+}
+
+.contact article {
+  background-color: #e6b50c;
+  width:67%;
+  float:right;
+  padding:2% 4%;
+}
+
+.entertainment article {
+  background-color: #b948ff;
+  width:67%;
+  float:right;
+  padding:2% 4%;
+}
+
+.home {
+  background-image: url("seasons2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+.food{
+  background-image: url("fall2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+.activities {
+  background-image: url("easter2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+.contact {
+  background-image: url("skiing2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+.entertainment {
+  background-image: url("beach2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+footer {
+  color: black;
+  background-color: #FBF8F1;
+  text-align: center;
+  padding: 2%;
+}
+
+.chuck {
+  width: 35%;
+  float:right;
+  margin: 0 0 30px 40px;
+  border: solid 4px black;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  #wrap{
+    width: 100%;
+  }
+  aside {
+    text-align: center;
+  }
+  aside a {
+    padding: 10px;
+  }
+  nav li {
+    display: block;
+  }
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  nav a:hover {
+    background-color: none;
+  }
+  aside, article {
+    float: none;
+    width: 91%;
+  }
+  .chuck{
+    float: none;
+    width: 92%;
+    margin: 10px;
+    display: none;
+  }
+}
