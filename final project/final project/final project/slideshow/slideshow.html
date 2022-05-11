@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  <head>
+    <meta charset="utf-8">
+    <title>Slideshow</title>
+
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+    <linkgn href="slideshow.css" rel="stylesheet" type="text/css">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P76M6JTHWX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P76M6JTHWX');
+</script>
+  </head>
+  <body>
+    <div id="wrap">
+
+      <header>
+        header
+        </header>
+
+          <nav>
+            nav
+          </nav>
+
+   <section>
+
+     <div class="slider-wrapper theme-default">
+         <div id="slider" class="nivoSlider">
+             <img src="images/yoda.jpg" data-thumb="images/yoda.jpg" alt="Yoda" />
+             <a href="http://starwars.fandom.com"><img src="images/vader.jpg" data-thumb="images/vader.jpg" alt="Vader" title="Scary Vader" /></a>
+             <img src="images/xwing.jpg" data-thumb="images/xwing.jpg" alt="X-wing" data-transition="slideInLeft" />
+             <img src="images/mando.jpg" data-thumb="images/mando.jpg" alt="Mando" title="#htmlcaption" />
+         </div>
+         <div id="htmlcaption" class="nivo-html-caption">
+             <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+         </div>
+     </div>
+
+   </section>
+  <footer>
+  footer
+</footer>
+
+</div>
+
+<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
+
+</body>
+</html>
